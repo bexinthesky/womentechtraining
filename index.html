@@ -9,44 +9,58 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Container-Fluid Begins -->
-  <div class="container-fluid">
-    <!-- Nav Begins -->
-    <ul class="nav nav-pills">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Profile</a></li>
-      <li role="presentation"><a href="#">Messages</a></li>
-    </ul>
-    <!-- Nav Ends -->
-    <!-- Jumbotron Begins -->
-    <div class="row">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Hello, world!</h1>
-          <p>...</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Home Page</h3>
+        <strong>HP</strong>
+      </div>
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="#home" data-toggle="collapse"><i class="glyphicon glyphicon-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-briefcase"></i>About</a>
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-send"></i>Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Page Content Holder -->
+    <div id="content">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+              <i class="glyphicon glyphicon-menu-hamburger"></i>
+              <span>Menu</span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </div>
-    <!-- Jumbotron Ends -->
-    <div class="row red">
-      <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi, consequatur quos blanditiis iure repudiandae quod possimus aperiam mollitia natus fugit, libero tenetur quisquam commodi eligendi sapiente eaque nobis nam.</p>
-      </div>
-      <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eius, qui vitae praesentium aut animi ex sunt delectus minus consequuntur quis, excepturi quisquam unde, quidem fuga eveniet illo perspiciatis culpa!</p>
-      </div>
-      <div class="col-md-4">
-        <p class="text-center">Lorem ipsum.</p>
-      </div>
+      </nav>
     </div>
   </div>
-  <!-- Container-Fluid Ends -->
-
 
 
   <!-- JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+      });
+  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
