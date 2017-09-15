@@ -125,13 +125,16 @@ a[data-toggle="collapse"] {
   transition: all 0.3s;
 }
 
+#top-div {
+  background-color: #1B234C;
+}
+
 #sidebarCollapse {
   background-color: #ff8c66;
 }
 
 .para-six {
-  margin: 20px 15px;
-  padding: 20px 50px;
+  padding: 40px 70px;
 }
 
 /*Carousel*/
@@ -160,14 +163,16 @@ a[data-toggle="collapse"] {
 
 /*Footer*/
 footer {
-  border-top: 2px solid #000000;
+  border-top: 3px solid #000000;
   height: 150px;
-  margin-top: 15px;
+  margin-top: 20px;
+  padding: 30px;
 }
 
 .social-media {
   color: #ffcc80;
   text-decoration: none;
+  padding: 30px;
 }
 
 /*Media Queries*/
