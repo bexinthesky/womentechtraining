@@ -129,33 +129,33 @@ a[data-toggle="collapse"] {
   background-color: #ff8c66;
 }
 
-p {
-  padding: 20px;
-  margin-top: 10px;
+.para-six {
+  margin: 20px 15px;
+  padding: 20px 50px;
 }
 
-/*CAROUSEL STYLES*/
+/*Carousel*/
 .item {
   height: 427px;
-  width: 640px;
+  width: 100%;
   background-position: center;
   background-size: cover;
 }
 
 #best-summer {
-
+  background-image: url('../img/bestsummer.jpg');
 }
 
 #cool-people {
-
+  background-image: url('../img/coolpeople.jpg');
 }
 
 #robot-img {
-
+  background-image: url('../img/robot.jpg');
 }
 
 #number-img {
-
+  background-image: url('../img/215.jpg');
 }
 
 /*Footer*/
