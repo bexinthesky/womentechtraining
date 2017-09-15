@@ -19,18 +19,18 @@
         </div>
         <ul class="list-unstyled components">
           <li class="active">
-            <a href="#home" data-toggle="collapse"><i class="glyphicon glyphicon-home"></i>Home</a>
+            <a href="index.html" data-toggle="collapse"><i class="glyphicon glyphicon-home"></i>Home</a>
           </li>
           <li>
-            <a href="#"><i class="glyphicon glyphicon-briefcase"></i>About</a>
+            <a href="about.html"><i class="glyphicon glyphicon-briefcase"></i>About</a>
             <li>
-              <a href="#"><i class="glyphicon glyphicon-send"></i>Contact</a>
+              <a href="contact.html"><i class="glyphicon glyphicon-send"></i>Contact</a>
             </li>
         </ul>
       </nav>
       <!-- Page Content -->
       <div id="content">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" id="top-div">
           <div class="container-fluid">
             <!-- Collapse Button Begins -->
             <div class="navbar-header">
@@ -82,16 +82,23 @@
           <!-- Carousel Ends -->
           <!-- Paragraphs Begin -->
           <div class="row">
-            <div class="col-sm-10">
-              <div class="col-sm-5 para-six">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-              <div class="col-sm-5 para-six">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nulla est, consequuntur doloremque, ea, quos rerum minus id quasi blanditiis iusto vel veniam non nobis labore praesentium molestiae tempore laudantium!</div>
+            <div class="col-sm-12">
+              <div class="col-sm-6 para-six">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+              <div class="col-sm-6 para-six">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nulla est, consequuntur doloremque, ea, quos rerum minus id quasi blanditiis iusto vel veniam non nobis labore praesentium molestiae tempore laudantium!</p>
+              </div>
             </div>
           </div>
           <!-- Paragraphs End -->
         </div>
         <footer>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 center-block">
+              <h2 class="footer-name">We ARE</h2>
+            </div>
+            <div class="col-sm-4 col-sm-offset-4">
               <a href="#" class="social-media">
                 <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
               </a>
@@ -102,30 +109,18 @@
                 <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
               </a>
             </div>
-            <div class="col-sm-4">
-              <h2>We ARE</h2>
-            </div>
-            <div class="col-sm-4">
-              <ul>Location
-                <li>173 Fourth St.</li>
-                <li>City, State</li>
-                <li>7777777777</li>
-              </ul>
-            </div>
           </div>
         </footer>
       </div>
     </div>
     <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#sidebarCollapse').on('click', function() {
-          $('#sidebar').toggleClass('active');
-        });
-      });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 
