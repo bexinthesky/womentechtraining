@@ -1,3 +1,6 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,700');
+
 /*Globals*/
 a, a:hover, a:focus {
   color: inherit;
@@ -7,6 +10,11 @@ a, a:hover, a:focus {
 
 .white-text {
   color: #fff;
+}
+
+.special-text {
+  font-family: 'Averia Sans Libre', cursive;
+  font-weight: 700;
 }
 
 /*Sidebar*/
@@ -42,7 +50,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar.active ul li a {
-  padding: 20px 10px;
+  padding: 25px 10px;
   text-align: center;
   font-size: 0.85em;
 }
@@ -68,7 +76,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sidebar-header {
-  padding: 20px;
+  padding: 25px;
   background: #ff531a;
 }
 
@@ -78,7 +86,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a {
-  padding: 10px;
+  padding: 25px;
   font-size: 1.1em;
   display: block;
 }
@@ -107,9 +115,8 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     display: block;
     position: absolute;
     right: 20px;
-    /*font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;*/
 }
+
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
