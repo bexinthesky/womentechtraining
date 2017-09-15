@@ -129,12 +129,12 @@ a[data-toggle="collapse"] {
   background-color: #ff8c66;
 }
 
-p {
-  padding: 20px;
-  margin-top: 10px;
+.para-six {
+  margin: 20px 15px;
+  padding: 20px 50px;
 }
 
-/*CAROUSEL STYLES*/
+/*Carousel*/
 .item {
   height: 427px;
   width: 100%;
