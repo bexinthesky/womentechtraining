@@ -17,6 +17,10 @@ a, a:hover, a:focus {
   font-weight: 700;
 }
 
+.text-padding {
+  padding: 10px 0px;
+}
+
 /*Sidebar*/
 .wrapper {
   display: flex;
@@ -207,14 +211,25 @@ a.social-media {
 }
 
 /*About Page*/
-.text-padding {
-  padding: 10px 0px;
-}
-
 ul.values-list {
   list-style-position: inside;
 }
 
+.team-img {
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.team-padding {
+  padding: 20px;
+}
+
+.address-list {
+  text-decoration: none;
+}
 
 /*Media Queries*/
 @media (max-width: 768px) {
