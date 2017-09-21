@@ -227,6 +227,10 @@ ul.values-list {
   padding: 20px;
 }
 
+.para-head {
+  font-size: 18px;
+}
+
 .address-list {
   list-style-type: none;
 }
